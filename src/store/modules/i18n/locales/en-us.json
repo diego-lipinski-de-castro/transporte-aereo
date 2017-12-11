@@ -1,0 +1,69 @@
+{
+  "title": "Air Business",
+  "short-title": "AIB",
+  "online": "Connected",
+  "offline": "No connection",
+  "notfound": "Page not found",
+  "back": "Back",
+  "go": "Enter",
+  "pages": {
+    "title": {
+      "login": "Login",
+      "404": "404",
+      "companys": "Companys",
+      "flights": "Flights"
+    },
+    "action": {
+      "dashboard": "Dashboard",
+      "new": "New",
+      "resource": "Resource"
+    }
+  },
+  "forms": {
+    "actions": {
+      "new": "New",
+      "delete": "Delete",
+      "list": "List",
+      "edit": "Edit",
+      "save": "Save",
+      "close": "Close",
+      "open": "Open",
+      "next": "Next",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "content": {
+      "search": "Search",
+      "loading": "Loading",
+      "no_data": "No items",
+      "per_page": "per page",
+      "name": "Name",
+      "number": "Number",
+      "select": "Select",
+      "airplanes_qtd": "nº of airplanes",
+      "date": "Date",
+      "time": "Time",
+      "departure": "Departure",
+      "arrival": "Arrival",
+      "check": "Check",
+      "generate": "Generate"
+    }
+  },
+  "messages": {
+    "success": "Success",
+    "failed": "Failed",
+    "no_place_details": "No details for this place"
+  },
+  "entities": {
+    "company": "Company",
+    "airplane": "Airplane",
+    "flight": "Flight",
+    "route": "Route"
+  },
+  "buefy": {
+    "datepicker": {
+      "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      "days_short": ["Su", "M", "Tu", "W", "Th", "F", "S"]
+    }
+  }
+}

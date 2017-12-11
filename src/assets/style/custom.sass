@@ -1,0 +1,40 @@
+html,
+body,
+#app,
+  height: 100%
+
+.view-wrapper
+  margin: 20px
+  +touch
+    margin: 10px
+
+.page-wrapper
+  margin: 40px
+  +touch
+    margin: 20px
+
+.fade-enter-active,
+.fade-leave-active
+  transition: all 500ms ease
+
+.fade-enter,
+.fade-leave-to
+  opacity: 0
+
+.is-ghost
+  border: 1px dashed
+  border-color: $grey-light
+  color: $grey-light
+  background-color: transparent
+  height: 80px
+
+  &:hover
+    color: $grey-light
+
+  &:focus
+    box-shadow: none !important
+    border-color: inherit
+
+.drag-message
+  +desktop
+      cursor: pointer

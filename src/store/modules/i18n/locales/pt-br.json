@@ -1,0 +1,69 @@
+{
+  "title": "Air Business",
+  "short-title": "AIB",
+  "online": "Conectado",
+  "offline": "Sem conexão",
+  "notfound": "Página não encontrada",
+  "back": "Voltar",
+  "go": "Entrar",
+  "pages": {
+    "title": {
+      "login": "Login",
+      "404": "404",
+      "companys": "Companhias",
+      "flights": "Voôos"
+    },
+    "action": {
+      "dashboard": "Dashboard",
+      "new": "Novo",
+      "resource": "Controle"
+    }
+  },
+  "forms": {
+    "actions": {
+      "new": "Novo",
+      "delete": "Deletar",
+      "list": "Listar",
+      "edit": "Editar",
+      "save": "Salvar",
+      "close": "Fechar",
+      "open": "Abrir",
+      "next": "Próximo",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar"
+    },
+    "content": {
+      "search": "Pesquise",
+      "loading": "Carregando",
+      "no_data": "Sem items",
+      "per_page": "por página",
+      "name": "Nome",
+      "number": "Número",
+      "select": "Selecione",
+      "airplanes_qtd": "nº de aviões",
+      "date": "Data",
+      "time": "Hora",
+      "departure": "Saída",
+      "arrival": "Pouso",
+      "check": "Checar",
+      "generate": "Gerar"
+    }
+  },
+  "messages": {
+    "success": "Sucesso",
+    "failed": "Falhou",
+    "no_place_details": "Não existem detalhes deste lugar"
+  },
+  "entities": {
+    "company": "Companhia",
+    "airplane": "Avião",
+    "flight": "Vôo",
+    "route": "Rota"
+  },
+  "buefy": {
+    "datepicker": {
+      "months": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+      "days_short": ["D", "S", "T", "Q", "Q", "S", "S"]
+    }
+  }
+}

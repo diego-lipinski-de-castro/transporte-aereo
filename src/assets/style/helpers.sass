@@ -1,0 +1,36 @@
+$sizes: (0, 2, 5, 10, 15, 20, 25, 30, 40, 50, 75, 80, 100)
+$sides: (top, right, bottom, left)
+
+@each $size in $sizes
+
+  .m-#{$size}
+    margin: #{$size}px !important
+    =touch
+        margin: #{$size}px / 2 !important
+
+  .p-#{$size}
+    padding: #{$size}px !important
+    =touch
+        padding: #{$size}px / 2 !important
+
+  @each $side in $sides
+    .m#{str-slice($side, 0, 1)}-#{$size}
+      margin-#{$side}: #{$size}px
+      =touch
+        margin-#{$side}: #{$size}px / 2
+
+    .p#{str-slice($side, 0, 1)}-#{$size}
+      padding-#{$side}: #{$size}px
+      =touch
+        padding-#{$side}: #{$size}px / 2
+
+.hidden-all
+  display: none !important
+
+.center-all-flex
+  justify-content: center
+  align-items: center
+
+
+.is-borderless
+  border: none !important

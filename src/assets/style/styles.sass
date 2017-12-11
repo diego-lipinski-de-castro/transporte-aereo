@@ -1,0 +1,24 @@
+.offline-content
+  position: fixed
+  bottom: 10px
+  right: 10px
+  display: flex
+  z-index: 9999
+  background-color: $primary
+  color: $white
+  padding: 8px
+  border: $white solid 2px
+  border-radius: 12px
+  // outline: $primary solid 2px
+  transform-origin: right bottom
+  animation: upsidedown 1000ms ease-in-out infinite alternate
+  z-index: 999999
+
+  @keyframes upsidedown
+    0%
+      transform: translateY(0px)
+    100%
+      transform: translateY(-10px)
+
+  &:focus
+    border-color: $primary
