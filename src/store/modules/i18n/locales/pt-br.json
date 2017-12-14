@@ -30,7 +30,8 @@
       "open": "Abrir",
       "next": "Próximo",
       "confirm": "Confirmar",
-      "cancel": "Cancelar"
+      "cancel": "Cancelar",
+      "finish": "Finalizar"
     },
     "content": {
       "search": "Pesquise",
@@ -46,13 +47,16 @@
       "departure": "Saída",
       "arrival": "Pouso",
       "check": "Checar",
-      "generate": "Gerar"
+      "generate": "Gerar",
+      "map": "Mapa"
     }
   },
   "messages": {
     "success": "Sucesso",
     "failed": "Falhou",
-    "no_place_details": "Não existem detalhes deste lugar"
+    "maps": {
+      "no_place_details": "Não existem detalhes deste lugar"
+    }
   },
   "entities": {
     "company": "Companhia",

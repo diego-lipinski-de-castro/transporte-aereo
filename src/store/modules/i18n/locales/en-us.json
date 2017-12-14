@@ -30,7 +30,8 @@
       "open": "Open",
       "next": "Next",
       "confirm": "Confirm",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "finish": "Finish"
     },
     "content": {
       "search": "Search",
@@ -46,13 +47,16 @@
       "departure": "Departure",
       "arrival": "Arrival",
       "check": "Check",
-      "generate": "Generate"
+      "generate": "Generate",
+      "map": "Map"
     }
   },
   "messages": {
     "success": "Success",
     "failed": "Failed",
-    "no_place_details": "No details for this place"
+    "maps": {
+      "no_place_details": "No details for this place"
+    }
   },
   "entities": {
     "company": "Company",

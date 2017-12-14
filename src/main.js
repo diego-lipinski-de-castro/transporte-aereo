@@ -36,7 +36,10 @@ store.dispatch('setLocale', currentLocale)
 import VueI18n from 'vue-i18n'
 import VueMeta from 'vue-meta'
 import lodash from 'lodash'
-import moment from 'moment'
+
+import * as datefns from 'date-fns'
+import datefnsPtLocale from 'date-fns/locale/pt'
+Vue.prototype.$fnsPt = datefnsPtLocale
 
 import arrive from 'arrive'
 window.arrive = arrive
@@ -93,9 +96,10 @@ function initApp(i18nConfig) {
 
   // const lodash = require('lodash')
   Vue.prototype.$lodash = lodash
+  window._ = lodash
 
-  // const moment = require('moment')
-  Vue.prototype.$moment = moment
+  // import * as datefns from 'date-fns'
+  Vue.prototype.$fns = datefns
 
   // const arrive = require('arrive')
   // Vue.prototype.$arrive
