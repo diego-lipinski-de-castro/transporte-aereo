@@ -2,7 +2,7 @@
 
   <div class="modal-card">
 
-    {{companyTo}}
+    <!-- {{companyTo}} -->
 
     <header class="modal-card-head">
       <p class="modal-card-title"> {{$t('forms.actions.new')}} {{$t('entities.airplane')}} </p>
